@@ -1,27 +1,12 @@
-cff-version: 1.2.1
-title: "OSF_CCF: Multi-omics resources for colorectal cancer tumor-derived organoids and macrophages"
+cff-version: 1.2.0
 message: "If you use this dataset, please cite it."
 authors:
   - family-names: "Fu"      
     given-names: "Zexian"     
     orcid: "https://orcid.org/0000-0002-6945-086" 
-    affiliation: "Hebei Uinversity of Engineering"        
-version: 1.0.2
+title: "OSF_CCF: Multi-omics resources for colorectal cancer tumor-derived organoids and macrophages"     
+version: 1.2
 Doi:https://doi.org/10.5281/zenodo.24459024
 date-released: 2023-11-23          
 repository-code: "https://github.com/dofuzx/OSF_CCF"  
 license: "CC-BY-4.0"
-abstract: >-
-  Curated, de-identified multi-omics resources and analysis workflows for studying
-  colorectal cancer tumor-derived organoids (TDO) and tumor-associated macrophages.
-  Integrates public gut metagenome, single-cell RNA-seq and bulk RNA-seq cohorts,
-  with scripts for microbiome analysis, single-cell annotation, WGCNA, machine-learning
-  signature construction, mechanism mediation, docking preparation and robustness checks.
-keywords:
-  - colorectal cancer
-  - tumor-derived organoid
-  - macrophage
-  - FOLR2
-  - multi-omics
-  - single-cell RNA-seq
-  - microbiome
