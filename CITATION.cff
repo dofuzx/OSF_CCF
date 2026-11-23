@@ -1,5 +1,4 @@
-https://doi.org/10.5281/zenodo.24459024
-cff-version: 1.2.0
+cff-version: 1.2.1
 title: "OSF_CCF: Multi-omics resources for colorectal cancer tumor-derived organoids and macrophages"
 message: "If you use this dataset, please cite it."
 authors:
@@ -7,7 +6,8 @@ authors:
     given-names: "Zexian"     
     orcid: "https://orcid.org/0000-0002-6945-086" 
     affiliation: "Hebei Uinversity of Engineering"        
-version: 1.0.2                      
+version: 1.0.2
+Doi:https://doi.org/10.5281/zenodo.24459024
 date-released: 2023-11-23          
 repository-code: "https://github.com/dofuzx/OSF_CCF"  
 license: "CC-BY-4.0"
