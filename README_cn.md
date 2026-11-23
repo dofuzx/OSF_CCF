@@ -40,7 +40,7 @@ OSF_CCF/
 
 ## 版本与 DOI
 
-- https://doi.org/10.5281/zenodo.24459024
+- https://doi.org/10.5281/zenodo.24459742
 
 ## 引用
 
