@@ -1,0 +1,83 @@
+# ===== 敏感信息：密钥、凭据、令牌（切勿入库） =====
+*.pem
+*.key
+*.p12
+*.pfx
+*.env
+.env.*
+*secret*
+*credential*
+*token*
+*password*
+id_rsa
+id_dsa
+*.keystore
+
+# ===== 患者隐私 / 可识别信息（PHI）相关 =====
+*patient*info*
+*phi*
+*identifi*
+*pii*
+*.dcm
+*.nii
+*.nii.gz
+
+# ===== 大体积原始/中间数据（按需改用 Git LFS，见 README） =====
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.bcl
+*.h5
+*.h5ad
+*.hdf5
+*.loom
+*.mtx
+*.mtx.gz
+*.rds
+*.RDS
+*.RData
+*.Rdata
+*.parquet
+*.feather
+*.zip
+*.tar
+*.gz
+*.tgz
+*.7z
+*.rar
+*.bz2
+*.xz
+
+# ===== R / Python 运行产物与缓存 =====
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.tmp
+*.temp
+*.log
+
+# ===== 操作系统 / 编辑器生成文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# ===== 说明 =====
+# 1) 若某些大文件确需随仓库发布：取消上面对应扩展名的注释，或按 Git LFS 管理：
+#    git lfs install
+#    git lfs track "*.h5ad" "*.bam"
+#    git add .gitattributes
+#    并在 GitHub 仓库 Settings → General → Archives 勾选
+#    "Include Git LFS objects in archives"，发布后再到 Zenodo 下载核对文件是否真实存在。
+# 2) .gitignore 只影响尚未跟踪的文件；已入库的敏感文件需先 git rm --cached 再提交。

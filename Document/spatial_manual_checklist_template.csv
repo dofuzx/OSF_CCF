@@ -1,0 +1,6 @@
+gse,filename,url,expected_size_mb,md5,barcode_count,geo_statement_count,dimension_match,downloaded_at,downloaded_by,method
+GSExxxxxx,filtered_feature_bc_matrix.h5,https://ftp.ncbi.nlm.nih.gov/geo/series/GSEnn_nnn/GSExxxxxx/suppl/GSMxxxxxx_<sample>_filtered_feature_bc_matrix.h5,,<md5sum输出>,,<见GSE series_matrix的!Series_sample_id或原论文Methods>,=IF(判断barcode_count与geo_statement_count一致填PASS否则FAIL),<YYYY-MM-DD hh:mm>,<姓名>,manual
+GSExxxxxx,spatial/tissue_positions_list.csv,https://ftp.ncbi.nlm.nih.gov/geo/series/GSEnn_nnn/GSExxxxxx/suppl/GSMxxxxxx_<sample>_spatial.zip内,,<解压后核对>,行数=斑点数,<同上>,PASS/FAIL,<YYYY-MM-DD hh:mm>,<姓名>,manual
+GSExxxxxx,spatial/scalefactors_json.json,<同上解压>,,<记录>,,,PASS/FAIL,<YYYY-MM-DD hh:mm>,<姓名>,manual
+GSExxxxxx,spatial/tissue_lowres_image.png,<同上解压>,,<记录>,,,PASS/FAIL,<YYYY-MM-DD hh:mm>,<姓名>,manual
+GSExxxxxx,GSExxxxxx_family.soft.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSEnn_nnn/GSExxxxxx/soft/GSExxxxxx_family.soft.gz,,<md5sum输出>,,<同上>,PASS/FAIL,<YYYY-MM-DD hh:mm>,<姓名>,manual

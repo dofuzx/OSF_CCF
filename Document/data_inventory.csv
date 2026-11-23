@@ -1,0 +1,19 @@
+layer,cohort,country,accession,repo,runs,unique_samples,type,role
+gut_metagenome,ZellerG_2014,France,PRJEB6070,ENA,1515,424,fecal WGS (+16S subset),discovery/meta
+gut_metagenome,FengQ_2015,Austria,PRJEB7774,ENA,312,156,fecal WGS,discovery/meta
+gut_metagenome,YuJ_2015,China,PRJEB10878,ENA,128,128,fecal WGS,discovery/meta
+gut_metagenome,VogtmannE_2016,USA,PRJEB12449,ENA,882,110,fecal WGS,discovery/meta
+gut_metagenome,HanniganGD_2017,USA/Canada,PRJNA389927,ENA/SRA,181,181,fecal WGS,discovery/meta
+gut_metagenome,WirbelJ_2018,Germany,PRJEB27928,ENA,260,82,fecal WGS,discovery/meta
+gut_metagenome,ThomasAM_2019,Italy,PRJNA447983,ENA/SRA,140,140,fecal WGS,discovery/meta
+gut_metagenome,YachidaS_2019,Japan,PRJDB4176,DDBJ,645,645,fecal WGS,external validation
+single_cell,Lee_2020_SMC,South Korea,GSE132465,GEO,33,33,"10x scRNA-seq, PROCESSED MATRICES ONLY (23 CRC pts; raw withheld)",discovery scRNA
+single_cell,Zhang_2020,USA,GSE146771,GEO,20,20,10x scRNA-seq (myeloid-focused),discovery scRNA (myeloid deep-dive)
+single_cell,Pelka_2021,USA,GSE178341,GEO,181,181,"10x scRNA-seq, PROCESSED MATRICES ONLY (raw in dbGaP phs002407)",training scRNA
+single_cell,Lee_2020_KUL3,Belgium,GSE144735,GEO,18,18,"10x scRNA-seq, processed matrices (6 pts, KUL3)",validation scRNA
+single_cell,CRC_2022b,China,GSE231559,GEO,26,26,"10x scRNA-seq (18 pts, tumor+normal)",validation scRNA
+single_cell,CRLM_2024,China,GSE245552,GEO,39,39,"10x scRNA-seq (16 pts, primary+liver met)",validation scRNA (metastasis)
+single_cell,Ramos_2022,France,GSE192935,GEO,58,58,10x scRNA-seq (breast FOLR2+ TAM; human+mouse),FOLR2+ signature reference
+bulk_RNAseq,TCGA-COAD/READ,USA,TCGA,GDC portal,,~630,bulk RNA-seq + clinical + MSI/IHC,survival/deconvolution
+bulk_RNAseq,GSE39582,France,GSE39582,GEO,566,566,bulk RNA-seq/microarray + clinical,external validation
+bulk_RNAseq,Roelands_2023,Netherlands,GSE225600*,GEO (per Nat Med 2023 paper),,~80,paired tumor RNA-seq + 16S/WGS microbiome + immune profiling,paired TME-microbiome reference
