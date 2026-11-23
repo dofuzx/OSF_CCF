@@ -41,7 +41,7 @@ The data inventory is provided in `Document/data_inventory.csv`, covering public
 
 ## Versions and DOI
 
-- https://doi.org/10.5281/zenodo.24459024
+- https://doi.org/10.5281/zenodo.24459742
 
 ## Citation
 
